@@ -39,7 +39,7 @@ class HomeController {
     * @return void
     */
     private static function index() {
-        // Return index.php page
+        include 'pages/index.php';
     }
 
     /**
